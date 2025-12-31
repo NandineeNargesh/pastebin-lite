@@ -104,7 +104,7 @@ export default function Home() {
                 disabled={loading}
                 className="bg-[#ffcc00] hover:bg-[#e6b800] text-[#521991] font-black py-3 px-12 rounded-md transition-all uppercase tracking-widest shadow-lg active:scale-95 disabled:opacity-50 text-sm"
               >
-                {loading ? "Brewing..." : "Generate Link →"}
+                {loading ? "Generating..." : "Generate Link →"}
               </button>
             </div>
           </form>

@@ -4,8 +4,11 @@ import { prisma } from '@/lib/db';
 interface PageProps {
   params: Promise<{ id: string }>;
 }
-
-export default async function ViewPaste({ params }: PageProps) {
+export default async function ViewPaste({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
   const { id } = await params;
 
   try {
