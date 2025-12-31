@@ -1,5 +1,7 @@
 # Pastebin-Lite ☕
 
+#live link : https://pastebin-lite-catygox9d-nandinee-nargeshs-projects.vercel.app
+
 A minimalist, self-destructing note-sharing application built with Next.js and Prisma.
 
 ## Persistence Layer
