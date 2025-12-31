@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* This ensures the root and body don't have any hidden black backgrounds */
+:root, body {
+  background-color: #521991 !important;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
